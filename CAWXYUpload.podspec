@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '7.1'
 
-  casdk_dir = 'CAWXYUpload1.1..3.3'
+  casdk_dir = 'CAWXYUpload1.1.3.3'
   pod_name = 'CAWXYUpload'
 
 s.source_files =
