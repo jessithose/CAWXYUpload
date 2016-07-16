@@ -40,7 +40,8 @@ s.preserve_paths =
 "#{casdk_dir}/libTXYUploader.a"
 
 s.libraries =
-"stdc++.6"
+"stdc++.6",
+"z"
 
 s.xcconfig = {
 "LIBRARY_SEARCH_PATHS" => "$(PODS_ROOT)/#{pod_name}/#{casdk_dir}/**"
